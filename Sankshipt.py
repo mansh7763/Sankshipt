@@ -325,7 +325,7 @@ def fetch_and_filter_articles_title(api_key, prompt, valid_links,prev_links, lan
         st.write(f'Error: {response.status_code}, {response.text}')
         return 0
 # Replace 'your_api_key' with your actual NewsAPI key
-api_key = '50ea858cc71b4000aea7f72182bfb5f6'
+api_key = '<Your_api_key>'
 
 # List of valid website links
 website_links = [
