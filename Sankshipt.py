@@ -1,8 +1,13 @@
-pip install streamlit requests nltk spacy transformers rake-nltk
-python -m spacy download en_core_web_sm
-python -m nltk.downloader punkt stopwords wordnet
+pip install streamlit
+pip install requests
+pip install nltk
+pip install spacy
+pip install transformers
+pip install rake-nltk
 pip install emojis
-
+pip install emojis
+python -m spacy download en_core_web_sm
+python -m nltk.downloader punkt stopwords wordne
 
 import streamlit as st
 import requests
